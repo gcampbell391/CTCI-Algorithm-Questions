@@ -35,11 +35,11 @@ const checkStrings = (strOne, strTwo) => {
     }
     return true;
 };
-var start = performance.now();
-checkStrings("bale", "bale")
-var end = performance.now();
+// var start = performance.now();
+// checkStrings("bale", "bale")
+// var end = performance.now();
 
-console.log('This took ' + (end - start) + 'ms to complete');
+// console.log('This took ' + (end - start) + 'ms to complete');
 console.log(checkStrings("bale", "bale"));
 console.log(checkStrings("bale", "pale"));
 console.log(checkStrings("bales", "bale"));
