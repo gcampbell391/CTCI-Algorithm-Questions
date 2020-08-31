@@ -1,5 +1,5 @@
 //Arrays and Strings
-//1.6 One Away
+//1.6 String Compression
 //pg 91
 
 //Implement a method to perform basic string compression using the counts of repeated characters. For example, the 
