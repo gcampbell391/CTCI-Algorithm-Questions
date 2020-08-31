@@ -1,6 +1,9 @@
+//Arrays and Strings 
+//1.1 Is Unique
+//pg 90
 
 
-
+//Implement an algorithm to determine if a string has all unique characters. 
 
 const isUnique = (str) => {
     let strArray = []
