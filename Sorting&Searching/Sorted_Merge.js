@@ -6,16 +6,18 @@
 //at the end to hold B. Write a method to merge B into A in sorted order.
 
 const sortMerge = (array1, array2) => {
-    let newArray = [...array1, ...array2]
-    newArray.sort()
-    return newArray
+
+    for (let x = 0; x < array2.length; x++) {
+        array1 = [...array1, array2[x]]
+        array1.sort()
+    }
+    return array1
 }
 
-
-const a1 = [1, 2, 3]
-const a2 = [2, 3, 4]
-const a3 = [4, 5, 6]
-const a4 = [0, 4, 9]
+let a1 = [1, 2, 3]
+let a2 = [2, 3, 4]
+let a3 = [4, 5, 6]
+let a4 = [0, 4, 9]
 
 var start = performance.now();
 console.log(sortMerge(a1, a4))
