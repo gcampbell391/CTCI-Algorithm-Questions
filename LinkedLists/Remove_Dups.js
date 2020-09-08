@@ -67,6 +67,7 @@ class LinkedList {
         return -1;
     }
 
+    //Removes duplicates from the linked list
     removeDuplicates() {
         let dupArray = []
         let current = this.head;
@@ -86,7 +87,7 @@ class LinkedList {
         }
     }
 
-    // prints the list items 
+    //Prints each item in the linked list
     printList() {
         let curr = this.head;
         let str = "";
@@ -96,10 +97,12 @@ class LinkedList {
         }
         console.log(str);
     }
+
     //Prints the size of the linked list
     size_of_list() {
         console.log(this.size);
     }
+
 }
 
 //Tests
