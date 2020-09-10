@@ -1,4 +1,3 @@
-// Complete the countingValleys function below.
 function countingValleys(n, s) {
     let currentElevation = 0
     let valleysCrossed = 0
