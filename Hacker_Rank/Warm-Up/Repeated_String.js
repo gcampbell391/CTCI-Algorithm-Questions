@@ -32,7 +32,4 @@ function repeatedString(s, n) {
     }
     return aCount
 }
-    
 
-
-}
