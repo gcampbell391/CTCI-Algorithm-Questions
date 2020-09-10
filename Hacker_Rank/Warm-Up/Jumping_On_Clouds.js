@@ -1,4 +1,19 @@
+/*
 
+Complete the jumpingOnClouds function in the editor below. It 
+should return the minimum number of jumps required, as an integer.
+
+0 = cumulus(okay it stand on)
+1 = thunderstorms(must be avoided)
+
+can jump to next cloud or one after next
+
+jumpingOnClouds has the following parameter(s):
+c: an array of binary integers
+
+Print the minimum number of jumps needed to win the game.
+
+*/
 function jumpingOnClouds(c) {
     let jumpCount = 0
     let currentIndex = 0
