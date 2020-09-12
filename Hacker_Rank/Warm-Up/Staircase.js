@@ -18,6 +18,7 @@ function staircase(n) {
     for (let x = 0; x < n; x++) {
         staircaseMessage = ""
         if (x + 1 === n) {
+            //.repeat(n) will repeat a string n times
             staircaseMessage = staircaseMessage + staircase.repeat(x + 1)
             console.log(staircaseMessage)
         }
