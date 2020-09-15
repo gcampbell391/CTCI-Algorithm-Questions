@@ -7,7 +7,6 @@ If the function is passed a valid PIN string, return true, else return false.
 */
 
 
-
 //Function to validate pin number 
 function validatePIN(pin) {
     //Return false if pin length isn't 4 or 6
